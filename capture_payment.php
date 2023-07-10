@@ -1,9 +1,9 @@
 <?php
-// Set up your API credentials
+
 $clientId = 'AbvnG_c6Gxd14cK8CQdoXpgMK3ODaGRv5bLrT0yuCVmSIZEh-lS71fSNoZScMyYfAkPwlyQmIItzJ-A6';
 $clientSecret = 'EOqJQ04vyFW_yHyMjM9nMAIbor378eyDVPTsoxwU36YgEvHQBeeS6u9XZ_O-8aRTYcXA7wT6CO4n-Rsi';
 
-// Get the order ID from the request
+
 $orderIDs = $_POST['orderID'];
 $orderID =json_encode($orderIDs);
 
